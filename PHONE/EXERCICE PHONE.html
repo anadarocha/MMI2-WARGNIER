@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>EXERCICE PHONE | page d'accueil dynamique</title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!-- Barre de Nav -->
+<header>    
+	<div class="navbar" id="nav">
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">A propos</a>
+		  <a href="#">Les matchs de la semaine</a>
+		  <a href="#">Les résultats des matchs</a>
+		  <a href="#">Les actualités de la semaine</a>
+		</div>
+	<span class="btn-menu" onclick="openNav()">&#9776;</span>
+		<img src="logobe.png" class="logo">
+
+	<div class="dropdown"> 
+		<button onclick="myFunction()" class="dropbouton">Mon espace</button>
+ 		<div id="myDropdown" class="dropdown-content">
+			<a href="#">S'identifier</a>
+			<a href="#">S'inscrire</a>
+		</div>
+	</div>
+	</div>
+</header>
+
+<!-- Sections de couleur -->
+<section id="bloc" class="animation-box">
+	<div id="bloc-couleur">
+		<h2 class="text1">Retrouvez les actualités du sport !</h2>
+	</div>
+</section>
+
+<section id="bloc2" class="animation-box">
+	<div id="bloc-couleur2">
+		<p class="text2" id="text2">La final de la coupe du monde de Rugby</p>
+		<img class="text1" id="img1" src="st.jpg">
+		<p class="sous-text" id="sous-text">Afrique du Sud VS Angleterre</p>
+	</div>
+</section>
+
+<script type="text/javascript" src="style.js"></script>
+</body>
+</html>
